@@ -1,22 +1,22 @@
 package model;
 
 public class Account {
-    int number;
+    int accountnumber;
     String username;
     double balance;
 
-    public Account(int number,String username,double balance){
-        this.number=number;
+    public Account(int accountnumber,String username,double balance){
+        this.accountnumber=accountnumber;
         this.username=username;
         this.balance=balance;
     }
 
     public void setnumber(int number){
-        this.number=number;
+        this.accountnumber=number;
     }
 
     public int getnumber(){
-        return number;
+        return accountnumber;
     }
 
     public void setusername(String username){
@@ -49,7 +49,7 @@ public class Account {
     }
 
     public String toString(){
-        return "Account[number= "+number+" , username= "+username +", balance= "+balance+"]";
+        return "Account[number= "+accountnumber+" , username= "+username +", balance= "+balance+"]";
     }
 
 }
