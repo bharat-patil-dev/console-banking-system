@@ -3,11 +3,11 @@ package model;
 import java.time.LocalDateTime;
 
 public class Transaction {
-    String transactiontype;
-    int amount;
-    LocalDateTime datetime;
+    private String transactiontype;
+    private double amount;
+    private LocalDateTime datetime;
 
-    public Transaction(String transactiontype, int amount){
+    public Transaction(String transactiontype, double amount){
         this.transactiontype=transactiontype;
         this.amount= amount;
         this.datetime=LocalDateTime.now();

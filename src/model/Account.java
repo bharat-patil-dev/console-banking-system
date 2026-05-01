@@ -1,9 +1,9 @@
 package model;
 
 public class Account {
-    int accountnumber;
-    String username;
-    double balance;
+    private int accountnumber;
+    private String username;
+    private double balance;
 
     public Account(int accountnumber,String username,double balance){
         this.accountnumber=accountnumber;
